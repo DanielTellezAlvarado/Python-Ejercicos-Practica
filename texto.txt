@@ -1,0 +1,52 @@
+H1 = rcos(teta)
+
+3s   =  (1/(81*(3*pi)^(1/2)))*((Z/a)^(3/2))*(27-18((Z*r)/a)+2*(Z^2*r^2)/a^2)*e^(-(Z*r/3*a))
+
+3pz  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*cos(teta)
+
+3px  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*sin(teta)*cos(phi)
+
+3py  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*sin(teta)*sin(phi)
+
+3dz2 =  ( (1)/(81*(6*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * (3*(cos(teta)^2)-1)
+
+3dxz =  ( (2^(1/2))/(81*pi^(1/2) )) * ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * sin(teta)*cos(teta)*cos(phi)
+
+3dyz =  ( (2^(1/2))/(81*pi^(1/2) )) * ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * sin(teta)*cos(teta)*sin(phi)
+
+3dx2-y2 = ( (1)/(81*(2*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a)))* (sin(teta)^2) * (cos(2*phi))
+
+3dxy = ( (1)/(81*(2*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a)))* (sin(teta)^2) * (sin(2*phi))
+
+
+la estructura para integrar en wolframalpha sobre las tres variables 
+
+
+integrate (                           ) d(phi) d(teta) dr, phi = 0 to 2*pi, teta= 0 to pi, r = 0 to infinite 
+
+H1 = rcos(teta)
+
+3s   =  (1/(81*(3*pi)^(1/2)))*((Z/a)^(3/2))*(27-18((Z*r)/a)+2*(Z^2*r^2)/a^2)*e^(-(Z*r/3*a))
+
+3pz  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*cos(teta)
+
+3px  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*sin(teta)*cos(phi)
+
+3py  =  ( (2^(1/2))/(81*pi^(1/2) ) * ((Z/a)^(5/2)) * (6-((Z*r)/a)) * r * (e^(-(Z*r/3*a)))*sin(teta)*sin(phi)
+
+3dz2 =  ( (1)/(81*(6*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * (3*(cos(teta)^2)-1)
+
+3dxz =  ( (2^(1/2))/(81*pi^(1/2) )) * ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * sin(teta)*cos(teta)*cos(phi)
+
+3dyz =  ( (2^(1/2))/(81*pi^(1/2) )) * ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a))) * sin(teta)*cos(teta)*sin(phi)
+
+3dx2-y2 = ( (1)/(81*(2*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a)))* (sin(teta)^2) * (cos(2*phi))
+
+3dxy = ( (1)/(81*(2*pi)^(1/2) ) )* ((Z/a)^(7/2)) * r^2 * (e^(-(Z*r/3*a)))* (sin(teta)^2) * (sin(2*phi))
+
+
+la estructura para integrar en wolframalpha sobre las tres variables 
+
+
+integrate (                           ) d(phi) d(teta) dr, phi = 0 to 2*pi, teta= 0 to pi, r = 0 to infinite 
+
